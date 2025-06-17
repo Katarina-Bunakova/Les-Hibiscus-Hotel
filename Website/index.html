@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Hibiscus Hotel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+
+<body>
+    <nav class="floating-nav">
+  <ul>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#rooms">Rooms</a></li>
+    <li><a href="#fares">Room Rates</a></li>
+    <li><a href="#restaurant">Restaurant</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#access">Access</a></li>
+    <li><a href="#activities">Activities</a></li>
+  </ul>
+</nav>
+  <section class="hero">
+  <div class="hero-overlay">
+    <img src="HibiscusHotelLogoWhite.png" alt="Hibiscus Logo" class="hero-logo">
+    <h2>WELCOME TO</h2>
+    <h1>Les Hibiscus/Mer</h1>
+    <p class="subtitle">HOTEL RESORT</p>
+    <a href="#about" class="btn">LEARN MORE</a>
+  </div>
+</section>
+
+
+  <section id="about" class="about-custom">
+  <div class="about-content">
+    <div class="about-text">
+      <h2>Hotel Les Hibiscus: Where Cinema Meets Coastal Elegance</h2>
+      <p>
+        Just steps from one of Senegal’s most stunning beaches and close to Cap Skirring International Airport, Hôtel Les Hibiscus offers a lush, tranquil retreat. Set within expansive tropical gardens, the hotel features a 100-seat performance hall and a panoramic bar-restaurant with a terrace and pool overlooking the ocean.
+        </p>
+        <p>
+Its 65 elegant rooms and suites, spread across charming bungalows, are each dedicated to a legendary film star — uniquely styled in their honour. Open year-round, the hotel blends cinematic flair with natural beauty and timeless comfort.
+        </p>
+    </div>
+    <div class="about-image">
+  <div class="image-wrapper">
+    <img src='pool.jpg' alt="Beach" />
+    <div class="image-overlay"></div>
+  </div>
+</div>
+  </div>
+</section>
+
+ <section id="moreinfo" class="moreinfo-custom">
+  <div class="moreinfo-content">
+    <div class="moreinfo-image">
+  <div class="image-wrapper">
+    <img src='beach.jpg' alt="Beach" />
+    <div class="image-overlay"></div>
+  </div>
+</div>
+<div class="moreinfo-text">
+      <h2>Imagine...</h2>
+      <p>
+        Bask in the sun year-round on a pristine 28-kilometre beach, perfect for long walks, cycling, quad biking, or even exploring by pirogue.
+    </p>
+        <p>
+The warm, inviting waters (25–28°C) are ideal for swimming or surfcasting, offering both relaxation and adventure.
+        </p>
+        <p>
+All around, lush, flowering vegetation surrounds you—ancient baobabs and kapok trees tower overhead as a symphony of birdsong completes the scene.    
+        </p>
+    </div>
+  </div>
+</section>
+
+  <section id="gallery" class="gallery">
+    <h2>Photo Gallery</h2>
+    <div id="roomCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="poolbar.jpg" class="d-block w-100" alt="Garden Room">
+    </div>
+    <div class="carousel-item">
+      <img src="pool2.jpg" class="d-block w-100" alt="Ocean View Suite">
+    </div>
+    <div class="carousel-item">
+      <img src="terrasse.jpg" class="d-block w-100" alt="Terrace Dining">
+    </div>
+    <div class="carousel-item">
+      <img src="beach2.jpg" class="d-block w-100" alt="Beachfront">
+    </div>
+    <div class="carousel-item">
+      <img src="solarium-piscine-bar-restaurant-hibiscus-senegal.jpg" class="d-block w-100" alt="Solarium">
+    </div>
+    <div class="carousel-item">
+      <img src="jungle.jpg" class="d-block w-100" alt="Tropical Gardens">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#roomCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#roomCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Thumbnails -->
+<div class="thumbnail-row d-flex justify-content-center flex-wrap gap-2 mt-3">
+  <img src="poolbar.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="0" alt="Thumb 1">
+  <img src="pool2.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="1" alt="Thumb 2">
+  <img src="terrasse.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="2" alt="Thumb 3">
+  <img src="beach2.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="3" alt="Thumb 4">
+  <img src="solarium-piscine-bar-restaurant-hibiscus-senegal.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="4" alt="Thumb 5">
+  <img src="jungle.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="5" alt="Thumb 6">
+</div>
+  </section>
+
+<section id="rooms" class="rooms-section">
+  <div class="container">
+    <h2 class="section-title">Our Rooms & Suites</h2>
+    
+    <!-- Image Carousel -->
+  <!-- Main Carousel -->
+<div id="roomCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="oceanview.jpg" class="d-block w-100" alt="Garden Room">
+    </div>
+    <div class="carousel-item">
+      <img src="oceanview2.jpg" class="d-block w-100" alt="Ocean View Suite">
+    </div>
+    <div class="carousel-item">
+      <img src="08-hotel-bord-de-mer-senegal.jpg" class="d-block w-100" alt="Connecting Family Rooms">
+    </div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#roomCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#roomCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Thumbnails -->
+<div class="thumbnail-row d-flex justify-content-center flex-wrap gap-2 mt-3">
+  <img src="oceanview.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="0" alt="Thumb 1">
+  <img src="oceanview2.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="1" alt="Thumb 2">
+  <img src="08-hotel-bord-de-mer-senegal.jpg" class="thumb-img" data-bs-target="#roomCarousel" data-bs-slide-to="2" alt="Thumb 3">
+</div>
+
+
+    <!-- Room Description -->
+    <div class="room-grid">
+  <!-- Block 1: Features -->
+  <div class="room-box">
+    <h4>Comfort & Amenities</h4>
+    <ul>
+      <li>Spacious rooms with floor-to-ceiling windows</li>
+      <li>King or twin beds (baby cot on request)</li>
+      <li>Air conditioning, LED TV, Wi-Fi, fridge</li>
+      <li>Modern bathroom with hot shower and WC</li>
+      <li>Private furnished terrace</li>
+    </ul>
+  </div>
+
+  <!-- Block 2: Room Categories -->
+  <div class="room-box">
+    <h4>Room Categories</h4>
+    <ul>
+      <li>Garden View Room (2 guests)</li>
+      <li>Ocean View Room (2 guests)</li>
+      <li>Ocean View Suite (2 guests)</li>
+      <li>Connecting Family Rooms (4–5 guests)</li>
+    </ul>
+  </div>
+
+  <!-- Block 3: Guest Perks -->
+  <div class="room-box">
+    <h4>Included in Your Stay</h4>
+    <ul>
+      <li>Complimentary breakfast</li>
+      <li>Access to pool and private beach</li>
+      <li>Two restaurants: Le Panoramique & Le Gastronomique</li>
+      <li>Bar, loungers, umbrellas, and snack service</li>
+      <li>Activities, artisan market, souvenir boutique</li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section id="fares" class="fares-section">
+  <div class="container">
+    <h2 class="section-title">Room Fares (2024–2025)</h2>
+    <p class="open-all-year text-center">Open All Year</p>
+
+    <div class="season-dates">
+      <div><strong>Low Season:</strong> May 1 – October 20, 2024</div>
+      <div><strong>Mid Season:</strong> Oct 20 – Dec 22, 2024 / Jan 2 – April 30, 2025</div>
+      <div><strong>High Season:</strong> Dec 22 – Jan 2</div>
+    </div>
+
+    <div class="fare-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Room Type</th>
+            <th>Low Season</th>
+            <th>Mid Season</th>
+            <th>High Season</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Standard Double / Garden</td>
+            <td>45,000 FCFA – 70 €</td>
+            <td>60,000 FCFA – 93 €</td>
+            <td>75,000 FCFA – 116 €</td>
+          </tr>
+          <tr>
+            <td>Comfort Double / Garden</td>
+            <td>60,000 FCFA – 93 €</td>
+            <td>88,000 FCFA – 136 €</td>
+            <td>97,500 FCFA – 150 €</td>
+          </tr>
+          <tr>
+            <td>Family Room / Garden</td>
+            <td>80,000 FCFA – 123 €</td>
+            <td>117,000 FCFA – 180 €</td>
+            <td>135,000 FCFA – 208 €</td>
+          </tr>
+          <tr>
+            <td>Double Room / Ocean View</td>
+            <td>78,000 FCFA – 120 €</td>
+            <td>123,500 FCFA – 190 €</td>
+            <td>150,000 FCFA – 231 €</td>
+          </tr>
+          <tr>
+            <td>Junior Suite / Ocean View</td>
+            <td>105,000 FCFA – 162 €</td>
+            <td>156,000 FCFA – 240 €</td>
+            <td>195,000 FCFA – 300 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="fare-notes">
+      <p><strong>Breakfast is included</strong> in all room rates.</p>
+      <p><strong>Extra bed:</strong> Adult – 20,000 FCFA/day, Child – 15,000 FCFA/day</p>
+      <p><strong>Tourist tax:</strong> 1,000 FCFA per person/day</p>
+    </div>
+
+    <div class="special-events">
+      <h4>Holiday Specials</h4>
+      <ul>
+        <li><strong>Christmas Eve Dinner (Dec 24):</strong> 50,000 FCFA or 80 € per adult / 25,000 FCFA or 40 € per child (4–12 yrs)</li>
+        <li><strong>New Year's Eve Dinner (Dec 31):</strong> 85,000 FCFA or 131 € per adult / 42,500 FCFA or 65.5 € per child (4–12 yrs)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="restaurant" class="restaurant-section">
+  <div class="container">
+    <h2 class="section-title">Our Restaurants</h2>
+    <p class="restaurant-intro text-center">
+      Enjoy refined cuisine with breathtaking views and warm hospitality in our two signature dining spaces.
+    </p>
+
+    <div class="restaurant-grid">
+      <!-- Le Panoramique -->
+      <div class="restaurant-box">
+        <h4>Le Panoramique</h4>
+        <p>A relaxed and airy space with ocean views, perfect for breakfast and leisurely lunches. Savor a variety of local and international dishes, fresh juices, and light bites throughout the day.</p>
+        <ul>
+          <li>Open from 7:30 AM to 3:00 PM</li>
+          <li>Panoramic ocean-facing terrace</li>
+          <li>Breakfast included with all stays</li>
+        </ul>
+      </div>
+
+      <!-- Le Gastronomique -->
+      <div class="restaurant-box">
+        <h4>Le Gastronomique</h4>
+        <p>An elegant and intimate setting ideal for dinners and special occasions. Our chef’s menu features fresh seafood, refined Senegalese cuisine, and French-inspired classics.</p>
+        <ul>
+          <li>Open from 6:30 PM to 10:30 PM</li>
+          <li>Curated à la carte menu & wine pairings</li>
+          <li>Live music on select evenings</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Food Carousel -->
+<div id="foodCarousel" class="carousel slide mb-4 mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="03-carpaccio-de-poisson-cuisine-de-la-mer.jpg" class="d-block w-100" alt="Dish 1">
+    </div>
+    <div class="carousel-item">
+      <img src="04-restaurant-gastro-cap-skirring-les-hibiscus.jpg" class="d-block w-100" alt="Dish 2">
+    </div>
+    <div class="carousel-item">
+      <img src="05-restaurant-de-luxe-bord-de-mer-cap-skirring.jpg" class="d-block w-100" alt="Dish 3">
+    </div>
+    <div class="carousel-item">
+      <img src="06-restaurant-hibiscus-jean-francois-davy.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="07-meilleur-restaurant-de-cap-skirring.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="breakfast.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="08-restaurant-specailites-poissons-cap-skirring.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="010-restaurant-hibiscus-bord-de-mer-cap-skirring.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="011-meilleur-restaurant-de-cap-skirring-poisson-crustaces.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+    <div class="carousel-item">
+      <img src="012-langouste-et-fruits-de-mer.jpg" class="d-block w-100" alt="Dish 4">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Thumbnails -->
+<div class="thumbnail-row d-flex justify-content-center flex-wrap gap-2 mt-3">
+  <img src="03-carpaccio-de-poisson-cuisine-de-la-mer.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="0" alt="Thumb 1">
+  <img src="04-restaurant-gastro-cap-skirring-les-hibiscus.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="1" alt="Thumb 2">
+  <img src="05-restaurant-de-luxe-bord-de-mer-cap-skirring.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="2" alt="Thumb 3">
+  <img src="06-restaurant-hibiscus-jean-francois-davy.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="3" alt="Thumb 4">
+  <img src="07-meilleur-restaurant-de-cap-skirring.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="4" alt="Thumb 5">
+  <img src="breakfast.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="5" alt="Thumb 6">
+  <img src="08-restaurant-specailites-poissons-cap-skirring.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="6" alt="Thumb 7">
+  <img src="010-restaurant-hibiscus-bord-de-mer-cap-skirring.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="7" alt="Thumb 8">
+  <img src="011-meilleur-restaurant-de-cap-skirring-poisson-crustaces.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="8" alt="Thumb 9">
+  <img src="012-langouste-et-fruits-de-mer.jpg" class="thumb-img" data-bs-target="#foodCarousel" data-bs-slide-to="9" alt="Thumb 10">
+</div>
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Contact – Hôtel Les Hibiscus</h2>
+    <p class="intro-text">For any questions or reservations, feel free to reach out using the form below or our contact information.</p>
+
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Hôtel Les Hibiscus / Mer</h3>
+        <p>Cap Skirring – Kabrousse<br>South Casamance – Senegal</p>
+        <p><strong>Contact:</strong> Iryna & Jean-François DAVY</p>
+        <p><strong>Sénégal:</strong><br>+221 77 022 19 44<br>+221 78 439 49 01</p>
+        <p><strong>France:</strong><br>+33 6 45 64 07 36</p>
+        <p><strong>Email:</strong><br><a href="mailto:leshibiscusresort.hotel@gmail.com">leshibiscusresort.hotel@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="access" class="access-section">
+  <div class="container">
+    <h2 class="section-title">Getting Here</h2>
+
+    <p class="access-intro">
+      Whether arriving by air, sea, or road, reaching Hôtel Les Hibiscus / Mer is part of the adventure. We’re located just minutes from Cap Skirring International Airport in the peaceful village of Kabrousse.
+    </p>
+
+    <!-- Map Embed -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25617.25934440867!2d-16.73203!3d12.356383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xedd79f4cace7891%3A0xcb51ec6d0e4c5c84!2sHibiscus%20Hotel!5e1!3m2!1sen!2ssn!4v1750178196299!5m2!1sen!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Travel Methods -->
+    <div class="travel-grid">
+      <!-- By Air -->
+      <div class="travel-box">
+        <h3>Arriving by Air</h3>
+        <p><strong>Direct flight Paris → Cap Skirring:</strong> ~6h via <a href="https://www.capecasamance.com" target="_blank">Transavia</a>, available Wednesdays and Sundays.</p>
+        <p><strong>International flights to Dakar:</strong> Corsair, Air France, Iberia, Brussels Airlines, Royal Air Maroc, TAP and others.</p>
+        <p><strong>Domestic connection:</strong> Daily flights from Dakar to Cap Skirring (~45 minutes) or Ziguinchor, followed by a short transfer.</p>
+      </div>
+
+      <!-- By Boat -->
+      <div class="travel-box">
+        <h3>By Ferry from Dakar</h3>
+        <p>Three weekly ferries run by <strong>COSAMA</strong> operate the route Dakar → Ziguinchor (with a stop in Karabane). Approximate travel time: 18 hours.</p>
+        <p><strong>Ferry Aline Sitoé Diatta Schedule:</strong></p>
+        <ul>
+          <li><strong>Dakar → Ziguinchor:</strong> Tuesdays & Fridays — 20:00 departure, 10:00 arrival next day</li>
+          <li><strong>Ziguinchor → Dakar:</strong> Thursdays & Sundays — 13:00 departure, 07:00 arrival next day</li>
+        </ul>
+        <p><strong>From Ziguinchor:</strong> Taxi or shuttle to the hotel (1 hour).</p>
+        <p><strong>Tickets:</strong> Available at ferry terminals in Dakar or Ziguinchor.</p>
+        <p><strong>Assistance:</strong> Mr. Doudou Tamba<br>
+          Tel: +221 77 653 04 27 / +221 33 990 39 52<br>
+          Email: <a href="mailto:tambadoudou@yahoo.fr">tambadoudou@yahoo.fr</a>
+        </p>
+      </div>
+
+      <!-- Local Travel -->
+      <div class="travel-box">
+        <h3>Local Transfers</h3>
+        <p>Hôtel Les Hibiscus / Mer is located just 10 minutes from Cap Skirring Airport.</p>
+        <p>We are happy to assist in arranging a taxi or private transfer from:</p>
+        <ul>
+          <li>Cap Skirring Airport</li>
+          <li>Ziguinchor Ferry Terminal</li>
+          <li>Ziguinchor Airport</li>
+        </ul>
+        <p>Reach out in advance to coordinate your arrival.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="activities" class="activities-section">
+  <div class="container">
+    <h2 class="section-title">Activities & Excursions</h2>
+
+    <p class="activities-intro">
+      Discover the magic of <strong>La Casamance</strong> — a region of untamed beauty, endless beaches, and unforgettable sunsets. Whether you're seeking adventure, relaxation, or cultural immersion, Hôtel Les Hibiscus / Mer offers a gateway to it all.
+    </p>
+
+    <!-- Nature & Culture -->
+    <div class="activity-box activity-flex">
+  <!-- Carousel Side -->
+  <div class="activity-carousel">
+    <div id="cultureCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="jungle.jpg" class="d-block w-100" alt="Diola Village Visit">
+        </div>
+        <div class="carousel-item">
+          <img src="pirogue-et-oiseaux-du-senegal.jpg" class="d-block w-100" alt="Mangrove Pirogue Tour">
+        </div>
+        <div class="carousel-item">
+          <img src="cours-de-percussion.jpg" class="d-block w-100" alt="Sacred Forest Excursion">
+        </div>
+        <div class="carousel-item">
+          <img src="tamtam-senegal-casamance.jpg" class="d-block w-100" alt="Sacred Forest Excursion">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#cultureCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cultureCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Text Side -->
+  <div class="activity-text">
+    <h3>🌿 Nature & Cultural Discovery</h3>
+    <p>
+      Venture out to explore the Diola villages, where tradition and heritage thrive. Walk along untouched beaches, glide past mangroves by pirogue, or journey inland by 4x4 to discover sacred forests, rice fields, and the rhythm of rural life.
+    </p>
+    <p>
+      Each season brings new colors and flavors to experience. Guided hikes, village visits, and storytelling excursions offer an authentic glimpse into the soul of Casamance — vibrant, rooted, and full of life.
+    </p>
+  </div>
+</div>
+
+
+
+    <!-- Wellness & Poolside Indulgence -->
+    <div class="activity-box activity-flex">
+  <!-- Carousel Side -->
+  <div class="activity-carousel">
+    <div id="wellnessCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="vacances-senegal.jpg" class="d-block w-100" alt="Spa Relaxation">
+        </div>
+        <div class="carousel-item">
+          <img src="pool.jpg" class="d-block w-100" alt="Beach Yoga">
+        </div>
+        <div class="carousel-item">
+          <img src="plage-de-casamance.jpg" class="d-block w-100" alt="Massage Treatment">
+        </div>
+        <div class="carousel-item">
+          <img src="fleur-hibiscus.jpg" class="d-block w-100" alt="Massage Treatment">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#wellnessCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#wellnessCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Text Side -->
+  <div class="activity-text">
+    <h3>💆‍♀️ Wellness & Relaxation</h3>
+    <p>Rejuvenate by our luxurious pool or right on the beach, where our bar team will serve you fresh fruit cocktails, smoothies, or a chilled glass of rosé.</p>
+    <p>Reconnect with your senses through soothing spa treatments, massages, and esthetic care — or greet the sunrise with gentle yoga by the sea.</p>
+  </div>
+</div>
+
+
+    <!-- Sport & Adventure -->
+    <div class="activity-box activity-flex">
+  <!-- Carousel Side -->
+  <div class="activity-carousel">
+    <div id="adventureCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="golf-cap-skirring.jpg" class="d-block w-100" alt="Beach Volleyball">
+        </div>
+        <div class="carousel-item">
+          <img src="cours-de-danse-africaine-senegal.jpg" class="d-block w-100" alt="Jet Skiing">
+        </div>
+        <div class="carousel-item">
+          <img src="kitesurf.jpg" class="d-block w-100" alt="Quad Bike Adventure">
+        </div>
+        <div class="carousel-item">
+          <img src="location-balade-en-quad.jpg" class="d-block w-100" alt="Fitness Workshop">
+        </div>
+        <div class="carousel-item">
+          <img src="location-de-velo-et-vtt.jpg" class="d-block w-100" alt="Fitness Workshop">
+        </div>
+        <div class="carousel-item">
+          <img src="voilier-du-club-med.jpg" class="d-block w-100" alt="Fitness Workshop">
+        </div>
+        <div class="carousel-item">
+          <img src="surfcasting-senegal.jpg" class="d-block w-100" alt="Fitness Workshop">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#adventureCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#adventureCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Text Side -->
+  <div class="activity-text">
+    <h3>🎯 Sport & Adventure</h3>
+    <p>From sunrise to sunset, experience the thrill of motion and the joy of play with an exciting selection of activities:</p>
+    <ul>
+      <li>Beach volleyball, ping-pong, pétanque, and tennis courts</li>
+      <li>Thrilling water sports like kite-surfing, boogie boarding, and jet skiing</li>
+      <li>Off-road fun with ATV, quad bikes, and scenic VTT trails</li>
+      <li>Group fitness sessions, aquagym, and energizing dance workshops</li>
+    </ul>
+  </div>
+</div>
+
+
+    <!-- Evening Entertainment -->
+    <div class="activity-box activity-flex">
+  <!-- Carousel Side -->
+  <div class="activity-carousel">
+    <div id="eveningCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="spectacle-musical.jpg" class="d-block w-100" alt="Live Music by Night">
+        </div>
+        <div class="carousel-item">
+          <img src="plage-du-senegal-cap-skirring.jpg" class="d-block w-100" alt="Open-Air Cinema">
+        </div>
+        <div class="carousel-item">
+          <img src="pool.jpg" class="d-block w-100" alt="Traditional Performance">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#eveningCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#eveningCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Text Side -->
+  <div class="activity-text">
+    <h3>🌙 Evenings Under the Stars</h3>
+    <p>
+      As the sun dips below the horizon, Hôtel Les Hibiscus transforms into a magical stage. Feel the rhythm of Casamance with live music, drumming circles, and mesmerizing open-air cinema beneath a canopy of stars.
+    </p>
+    <p>
+      Celebrate the night with themed dinners, artisan markets, cultural performances, and barefoot dancing in the sand — or simply relax in a starlit lounge, cocktail in hand, as the ocean hums its lullaby.
+    </p>
+  </div>
+</div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="footer-logo">🌴 Les Hibiscus/Mer</div>
+    <p>Est. 2023 | Located in Cap Skirring, Senegal</p>
+    <p>Contact us at: <a href="mailto: leshibiscusresort.hotel@gmail.com"> leshibiscusresort.hotel@gmail.com</a></p>
+    <img src="HibiscusHotelLogoWhite.png" alt="Hibiscus Logo" class="hero-logo">
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
