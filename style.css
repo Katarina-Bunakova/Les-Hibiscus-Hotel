@@ -3,6 +3,7 @@ body, html {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #1d1d1d;
+  overflow-x: hidden;
 }
 
 html {
@@ -38,6 +39,11 @@ html {
   color: #00251a;
   margin: 0.5rem 0;
 }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
 
 .hero h2 {
   font-size: 1rem;
